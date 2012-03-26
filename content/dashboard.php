@@ -30,14 +30,6 @@
 
 <!--Post-it-->
 
-
-
-
-
-<!--test git-->      
-        
-        
-
     <div class="dash">
         <div class="dash_head"><h6>Post it</h6>
             <a href="#" id="handle">Ajouter +</a>
