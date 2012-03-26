@@ -31,7 +31,7 @@
 <!--Post-it-->
 
     <div class="dash">
-        <div class="dash_head"><h6>Post it</h6>
+        <div class="dash_head"><h6>M&Eacute;MO</h6>
             <a href="#" id="handle">Ajouter +</a>
             <div class="close"></div>
         </div>        
