@@ -1,10 +1,3 @@
-<!--<script>
-	$(function() {
-		$( ".sortable" ).sortable();
-		$( ".sortable" ).disableSelection();
-                $( "div.dash" ).resizable();
-	});
-</script>-->
 <script>
 	$(function() {
 		$( ".sortable" )

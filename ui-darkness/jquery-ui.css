@@ -55,6 +55,7 @@
 .ui-widget-header { background:#cdcdcd url('../img/boxheader.gif') repeat-x top; border:1px solid #9d9d9d; font-weight:bold; font-size:14px;color:#333333;text-shadow: 1px 1px 1px #fff; }
 .ui-widget-header a { color: #222222; }
 
+
 /* Interaction states
 ----------------------------------*/
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid #d3d3d3; background: #e6e6e6 url(../img/jquery-ui/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x; font-weight: normal; color: #555555; }
