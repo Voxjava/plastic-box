@@ -109,7 +109,7 @@ h2 {font-size: 15px;line-height: 1.2307em;color: black;padding-bottom: 25px;text
 .accordion li:hover ul{height:100px;}
 .accordion ul li a:hover{background:#444749;}
 .accordion li ul li a {font-size:9px;}
-.accordion li a {display: block;border-bottom: 1px solid rgba(0,0,0, 0.7);border-top:1px solid rgba(255,255,255, 0.2); color:#2c3134;text-shadow: 1px 0px 4px #000;filter: dropshadow(color=#000, offx=1, offy=0);padding:5px;}
+.accordion li a {display: block;border-bottom: 1px solid rgba(0,0,0, 0.7);border-top:1px solid rgba(255,255,255, 0.2); color:#736C6C;padding:5px;}
 .ap{color:#000; text-decoration:none;  padding-left:14px;background:url(../Images/list-marker.gif) 0 5px no-repeat;font-size:10px;}
 
 /*section=================================================================*/
