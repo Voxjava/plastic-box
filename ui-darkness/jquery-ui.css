@@ -50,7 +50,7 @@
 .ui-widget { font-family: Verdana,Arial,sans-serif; font-size: 1.1em; }
 .ui-widget .ui-widget { font-size: 1em; }
 .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Verdana,Arial,sans-serif; font-size: 1em; }
-.ui-widget-content { border: 1px solid #9d9d9d; background: #fff; color: #222222; }
+/*.ui-widget-content { border: 1px solid #9d9d9d; background: #fff; color: #222222; }*/
 .ui-widget-content a { color: #222222; }
 .ui-widget-header { background:#cdcdcd url('../img/boxheader.gif') repeat-x top; border:1px solid #9d9d9d; font-weight:bold; font-size:14px;color:#333333;text-shadow: 1px 1px 1px #fff; }
 .ui-widget-header a { color: #222222; }
@@ -300,7 +300,7 @@
 .ui-accordion .ui-accordion-header { cursor: pointer; position: relative; margin-top: 1px; zoom: 1; }
 .ui-accordion .ui-accordion-li-fix { display: inline; }
 .ui-accordion .ui-accordion-header-active { border-bottom: 0 !important; }
-.ui-accordion .ui-accordion-header a { display: block; font-size: 1em; padding: .5em .5em .5em .7em; }
+.ui-accordion .ui-accordion-header a { display: block; font-size: 1em;}
 /* IE7-/Win - Fix extra vertical space in lists */
 .ui-accordion a { zoom: 1; }
 .ui-accordion-icons .ui-accordion-header a { padding-left: 2.2em; }
