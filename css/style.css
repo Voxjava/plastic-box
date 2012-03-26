@@ -8,7 +8,7 @@ body {background:url(../Images/bg.gif) 0 0 repeat;
       line-height:17px;
       color:#736c6c;
       min-height:100%;
-      width:100%
+      width:100%;
 }
 html, body {height:100%;}
 p {padding-bottom:17px;}
@@ -113,7 +113,7 @@ h2 {font-size: 15px;line-height: 1.2307em;color: black;padding-bottom: 25px;text
 .ap{color:#000; text-decoration:none;  padding-left:14px;background:url(../Images/list-marker.gif) 0 5px no-repeat;font-size:10px;}
 
 /*section=================================================================*/
-#content_ppal {min-height:431px;width: 973px;margin-right:11px;height:auto;background-color: white;float:right;padding-left: 25px;border: 1px solid #E5E5E5;padding-top:50px;padding-bottom: 100px;margin-top:11px;margin-bottom: 37px;}
+#content_ppal {min-height:431px;width: 973px;margin-right:6px;height:auto;background-color: white;float:right;padding-left: 25px;border: 1px solid #E5E5E5;padding-top:50px;padding-bottom: 100px;margin-top:11px;margin-bottom: 37px;}
 
 /*----- form defaults -----*/
 
@@ -597,4 +597,13 @@ a#handle{
     position: relative;
     left: 108px;
     font-size: 10px;
+}
+#content_ppal fieldset{
+    padding-bottom: 21px;
+    width: 562px;
+    border:1px solid #ccc;
+}
+#content_ppal fieldset legend{
+    margin-left: 30px;
+    font-size:20px;
 }
