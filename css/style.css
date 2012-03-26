@@ -581,7 +581,7 @@ h6{
     width:70%;
     height:auto;
 }
-.content-section{ border:1px solid #ccc;}
+.content-section{ border:1px solid #ccc;border-radius:0 0 5px 5px }
 .content-head{
     background:url(../Images/header-bg.gif) repeat-x;  
     height:40px;
