@@ -30,7 +30,7 @@
         <!-- content gauche-->
 	<?php include("aside.php"); ?>
         <!--content droite-->
-        <?php include("commande.php"); ?>
+        <?php include("dashboard.php"); ?>
         <!-- footer -->
         <?php include("footer.php"); ?>
 </html>

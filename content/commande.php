@@ -12,105 +12,88 @@
                 </div>
                 <div class="clear"></div>
             </FIELDSET>
+        </form>
             <FIELDSET style="width:762px;margin-top:20px;">
                 <legend>Indications et informations particuliéres</legend>
+                <div class="gauche">                
+                    <form name="f1">
+                        <table id="Commande_table">
+                            <tr>
+                                <td>Article</td>
+                                <td>Quantité commandé</td>
+                                <td>Quantité en stock</td>
+                                <td>Production</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select>
+                                        <option></option>
+                                        <option>Article 1</option>
+                                        <option>Article 2</option>
+                                        <option>Article 3</option>
+                                    </select>
+                                </td>
+                                <td><input type="text" size="6" name="c1unite" placeholder="0,00" /></td>
+                                <td>Stock article </td>
+                                <td> <input type="text" name="c1prix" size="6"/></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select>
+                                        <option></option>
+                                        <option>Article 1</option>
+                                        <option>Article 2</option>
+                                        <option>Article 3</option>
+                                    </select>
+                                </td>
+                                <td><input type="text" size="6" name="c2" placeholder="0,00"  /></td>
+                                <td>stock Article</td>
+                                <td><input type="text" name="c2prix" size="6"/></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select>
+                                        <option></option>
+                                        <option>Article 1</option>
+                                        <option>Article 2</option>
+                                        <option>Article 3</option>
+                                    </select>
+                                </td>
+                                <td> <input type="text" size="6" name="c3" placeholder="0,00" /></td>
+                                <td>Stock article</td>
+                                <td> <input type="text" name="c3prix" size="6"/></td>
+                            </tr>
+                            <tr>
+                                <td>Chaine de production</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td><input type="text" name="port" size="6" /></td>
+                            </tr>
+                            <tr>
+                                <td>TVA</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td><input type="text" name="tva" size="6" /> </td>
+                            </tr>
+                            <tr>
+                                <td>TOTAL</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td> <input type="text" name="total" size="6" /></td>
+                            </tr>
+                        </table>
+                        </p>
+                    </form>
+                </div>
+                <div class="droite">
+                    <div id="submit_command">   
+                <input type="submit" value="Créer"/>
+                    </div>
+
+                </div>
+                <div class="clear"></div>
+                </div>    
                 
-<form name="f1">
-<table id="Commande_table">
-    <tr>
-        <td>Article</td>
-        <td>Quantité commandé</td>
-        <td>Quantité en stock</td>
-        <td>Production</td>
-    </tr>
-    <tr>
-    <td>
-        <select>
-        <option></option>
-        <option>Article 1</option>
-        <option>Article 2</option>
-        <option>Article 3</option>
-        </select>
-    </td>
-    <td><input type="text" size="6" name="c1unite" placeholder="0,00" /></td>
-    <td>Stock article </td>
-    <td> <input type="text" name="c1prix" size="6" value="0.00" /></td>
-    </tr>
-    <tr>
-        <td>
-        <select>
-        <option></option>
-        <option>Article 1</option>
-        <option>Article 2</option>
-        <option>Article 3</option>
-        </select>
-    </td>
-        <td><input type="text" size="6" name="c2" placeholder="0,00"  /></td>
-        <td>stock Article</td>
-        <td><input type="text" name="c2prix" size="6" value="0.00" /></td>
-    </tr>
-    <tr>
-        <td>
-        <select>
-        <option></option>
-        <option>Article 1</option>
-        <option>Article 2</option>
-        <option>Article 3</option>
-        </select>
-    </td>
-        <td> <input type="text" size="6" name="c3" placeholder="0,00" /></td>
-        <td>Stock article</td>
-        <td> <input type="text" name="c3prix" size="6" value="0.00" /></td>
-    </tr>
-    <tr>
-        <td>Frais de port</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td><input type="text" name="port" value="6.95" size="6" /></td>
-    </tr>
-    <tr>
-        <td>TVA</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td><input type="text" name="tva" value="0.00" size="6" /> </td>
-    </tr>
-    <tr>
-        <td>TOTAL</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td> <input type="text" name="total" value="0.00" size="6" /></td>
-    </tr>
-</table>
-</p>
-</form>
-
-
-
-
-
-
-
-
-
-
-
-    </div>    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </section>

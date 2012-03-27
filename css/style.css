@@ -16,6 +16,8 @@ a {outline:none;cursor:pointer;text-decoration:none;}
 a:hover{text-decoration:none;}
 .clear {clear:both;}
 li {text-decoration: none;}
+.gauche{float:left;}
+.droite{float:right;}
 
 /*Structure ============================================================= */
 
@@ -44,8 +46,7 @@ header{height:218px; background:url(../Images/header-bg.gif) repeat-x; width:100
 .link1 {font-size: 11px;line-height: 1.2307em;color: #FAFAFA;text-decoration: none;display: inline-block;cursor: pointer;margin-top: 0px;vertical-align: middle;margin-top: 0px;padding: 7px 12px 19px 21px;margin-right: -4px;}
 .link1:hover {color:#a5a4a4;}
 .message{left: 140px;padding-right: 9px;position: absolute;top: 12px;width: 10px;}
-.number {background-color: red;
-         border-radius: 200px 200px 200px 200px;color: #FFFFFF;font-size: 9px;left: 12px;line-height: 1;padding: 2px;position: absolute;top: -7px;}
+.number {background-color: red;border-radius: 200px 200px 200px 200px;color: #FFFFFF;font-size: 9px;left: 12px;line-height: 1;padding: 2px;position: absolute;top: -7px;}
 .rss{left: 174px;position: absolute;top: 12px;}
 #bandeau{background-color: #000000;
          border-bottom: 1px solid #FFFFFF;
@@ -91,6 +92,7 @@ nav ul li:last-child:hover::after{left:46.6em;width:14em;}
 
 /*aside ==================================================================*/
 #content_left{float:left;}
+
 /*1*/
 
 aside{padding-top: 10px;padding-bottom: 9px;}	
@@ -100,6 +102,7 @@ h2 {font-size: 15px;line-height: 1.2307em;color: black;padding-bottom: 25px;text
 .title {color:#000; font-weight:bold; margin-top:-3px; margin-bottom:7px;}
 .title a {text-decoration:none; color:#000;}
 .box ul li{list-style-type: none; }
+
 /*2*/
 
 .box1{background:#fff; border:1px solid #e5e5e5; min-height:100px;width:240px;height:auto;float:left;}
@@ -113,6 +116,7 @@ h2 {font-size: 15px;line-height: 1.2307em;color: black;padding-bottom: 25px;text
 .ap{color:#000; text-decoration:none;  padding-left:14px;background:url(../Images/list-marker.gif) 0 5px no-repeat;font-size:10px;}
 
 /*section=================================================================*/
+
 #content_ppal {min-height:431px;width: 973px;margin-right:6px;height:auto;background-color: white;float:right;padding-left: 25px;border: 1px solid #E5E5E5;padding-top:50px;padding-bottom: 100px;margin-top:11px;margin-bottom: 37px;}
 
 /*----- form defaults -----*/
@@ -147,6 +151,7 @@ footer{height:64px;width:auto; margin: 0 auto; border-top:1px solid #121212; tex
 #entete{float:left;}
 
 /*-------------Formulaire recherche--------------------------*/ 
+
 #mytable th{padding:9px 10px;
             color:#fff;
             font-size: 15px;
@@ -174,9 +179,7 @@ footer{height:64px;width:auto; margin: 0 auto; border-top:1px solid #121212; tex
              box-shadow:0px 1px 2px #000;
              padding:4px;
              vertical-align: middle; 
-
 }
-#mytable tr{}
 #mytable{font-family: Trebuchet MS, serif;font-size: 18px;font-style: italic;font-weight: normal;letter-spacing: -1px;line-height: 1.2em;border-collapse:collapse;text-align:center;width:930px;margin:auto;}
 #pager{float: right;margin-right: 166px;}
 /*#recherche{border: 1px solid;height: 75px;margin: auto 167px;width: 648px;}*/
@@ -236,7 +239,6 @@ footer{height:64px;width:auto; margin: 0 auto; border-top:1px solid #121212; tex
 #fiche tr td input[type="submit"] {bottom: -16px;position: absolute;right: -180px;}
 #fiche tr td img {float: right;left: 352px;position: absolute;top: 7px;}
 form#fiche tr td:first-child{width:150px;}
-.info{}
 .encadre {
     -moz-border-bottom-colors: none;
     -moz-border-image: none;
@@ -359,7 +361,6 @@ a.submit:hover{
 #nomenclature input[type=file]{
     -moz-border-radius:3px;
     -webkit-border-radius:3px;
-
 }
 #nomenclature input[type=submit]:active,
 input[type=submit]:focus,
@@ -482,6 +483,7 @@ table.tablesorter thead tr .headerSortDown {
     border-style: solid;  
     box-shadow: inset 0 3px 4px #888;  
 }  
+/********************dashboard**********************************/
 h5{
     padding-left:72px;
     font-size:20px;
@@ -494,7 +496,7 @@ h6{
     font-size:20px;
     padding-top:8px;
     text-decoration: underline; 
-  }
+}
 #logo-dash{
     background-image: url("../Images/dash1.png");
     width:64px;
@@ -589,7 +591,6 @@ h6{
 }
 .content ul{
     list-style-type: none;
-
 }
 
 a#handle{
@@ -598,21 +599,29 @@ a#handle{
     left: 108px;
     font-size: 10px;
 }
+/****************commande****************************/
+
 #content_ppal fieldset{
     padding-bottom: 21px;
-     border:1px solid #ccc;
-     padding-bottom:20px;
+    border:1px solid #ccc;
+    padding-bottom:20px;
 }
 #content_ppal fieldset legend{
     margin-left: 30px;
     font-size:20px;
 }
 #Commande_table{
-  border:1px solid #ccc;  
-  text-align: center;  
-    
+    text-align: center;  
+    margin-left: 15px;
+    margin-top: 32px;
+    padding-top:5px;
+    padding-bottom:10px;
 }
 #Commande_table tr{
- text-align: left;  
-    
+    text-align: center;  
+
 } 
+#submit_command{
+   height: 250px;
+   width: 300px; 
+}
