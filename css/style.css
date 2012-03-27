@@ -600,10 +600,19 @@ a#handle{
 }
 #content_ppal fieldset{
     padding-bottom: 21px;
-    width: 562px;
-    border:1px solid #ccc;
+     border:1px solid #ccc;
+     padding-bottom:20px;
 }
 #content_ppal fieldset legend{
     margin-left: 30px;
     font-size:20px;
 }
+#Commande_table{
+  border:1px solid #ccc;  
+  text-align: center;  
+    
+}
+#Commande_table tr{
+ text-align: left;  
+    
+} 
