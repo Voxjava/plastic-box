@@ -1,3 +1,22 @@
+<script>
+    $(function() {
+		$( "#dialog" ).dialog({
+			autoOpen: false,
+			show: "blind",
+			hide: "explode",
+                        modal: "true",
+                        position: "right",
+                        title: "Choixd'une Chaine de Production"
+		});
+
+		$( "#opener" ).click(function() {
+			$( "#dialog" ).dialog( "open" );
+			return false;
+		});
+	});
+	</script>
+
+
 <section id="content_ppal">
     <div id="commade">
         <div class="logo"></div>
@@ -27,7 +46,7 @@
                             <tr>
                                 <td>
                                     <select>
-                                        <option></option>
+                                        <option>Article 0</option>
                                         <option>Article 1</option>
                                         <option>Article 2</option>
                                         <option>Article 3</option>
@@ -67,7 +86,7 @@
                                 <td>Chaine de production</td>
                                 <td><a class="dispo" href="#"><img src="../Images/dispo.png" style="vertical-align:left;"/></a></td>
                                 <td>&nbsp;</td>
-                                <td><a href="#"><img src="../Images/usine.JPG"/> 1 </td>
+                                <td><a href="#" id="opener"><img src="../Images/usine.png"/> 1 </td>
                             </tr>
                             <tr>
                                 <td>TOTAL</td>
@@ -77,11 +96,23 @@
                             </tr>
                         </table>
                         </p>
+                        <div class="padding">
                          <a class="submit" href="#">Créer</a> ou <a href="#">annuler</a>
+                        </div>
                     </form>
                 </div>
+                <div id="dialog" title="Basic dialog">
+                    <ul class="iconlist">
+                        <li class="usine"><a href="#">Chaine 1</a> Ouverte</li>
+                        <li class="usine"><a href="#">Chaine 2</a> Ferm&eacute;</li>
+                        <li class="usine"><a href="#">Chaine 3</a> Ouverte</li>
+                        <li class="usine"><a href="#">Chaine 4</a> Ouverte</li>
+                    </ul>
+                </div>
                 <div class="droite">
-                   
+<!--                    <div id="qcode">
+                      
+                    </div>-->
 
                 </div>
                 <div class="clear"></div>

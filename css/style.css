@@ -18,7 +18,7 @@ a:hover{text-decoration:none;}
 li {text-decoration: none;}
 .gauche{float:left;}
 .droite{float:right;}
-
+.padding{padding-left:40px;}
 /*Structure ============================================================= */
 
 
@@ -625,7 +625,27 @@ a#handle{
    height: 250px;
    width: 300px; 
 }
-.dispo img{
-    
+.iconlist
+{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li.usine
+{
+  background-image: url("../Images/usine.png");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  padding: 4px 0 10px 68px;
+  margin: .4em 0;
+  margin-left:30px;
+}
+#qcode{
+  background-image: url("../Images/Qr.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  width:200px;
+  height:200px;
     
 }
