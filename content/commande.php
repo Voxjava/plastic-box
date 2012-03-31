@@ -65,15 +65,9 @@
                             </tr>
                             <tr>
                                 <td>Chaine de production</td>
+                                <td><a class="dispo" href="#"><img src="../Images/dispo.png" style="vertical-align:left;"/></a></td>
                                 <td>&nbsp;</td>
-                                <td>&nbsp;</td>
-                                <td><input type="text" name="port" size="6" /></td>
-                            </tr>
-                            <tr>
-                                <td>TVA</td>
-                                <td>&nbsp;</td>
-                                <td>&nbsp;</td>
-                                <td><input type="text" name="tva" size="6" /> </td>
+                                <td><a href="#"><img src="../Images/usine.JPG"/> 1 </td>
                             </tr>
                             <tr>
                                 <td>TOTAL</td>
@@ -83,12 +77,11 @@
                             </tr>
                         </table>
                         </p>
+                         <a class="submit" href="#">Créer</a> ou <a href="#">annuler</a>
                     </form>
                 </div>
                 <div class="droite">
-                    <div id="submit_command">   
-                <input type="submit" value="Créer"/>
-                    </div>
+                   
 
                 </div>
                 <div class="clear"></div>
