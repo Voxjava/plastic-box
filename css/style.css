@@ -649,3 +649,9 @@ li.usine
   height:200px;
     
 }
+span.cb{
+    background-image: url('../Images/cb32.png');
+    width:32px;
+    height:32px;
+    
+}

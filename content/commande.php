@@ -33,8 +33,7 @@
 
 <section class="content_ppal">
     <div id="commade">
-        <div class="logo"></div>
-        <FORM method=post action="" >
+        <form method=post action="" >
             <FIELDSET style="width:562px">
                 <LEGEND align=top>Bon de Commandes </LEGEND><br>
                 <div style="float:left">
@@ -45,7 +44,7 @@
 					<option value="choix">Choix ou Saisie</option>
 				</select>
                     </label>
-                   <a href="#" style="font-size: 9px">annuler</a>
+                   <span class="cb"></span><a href="#" style="font-size: 9px">annuler</a>
                 </div>
                 <div style="float:right;margin-right:10px">
                     <label>Date : <?php echo $jours[date("w")] . " " . date("d") . " " . $mois[date("m") - 1] . " " . date("Y"); ?></label>
