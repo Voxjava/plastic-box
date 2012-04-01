@@ -16,7 +16,7 @@
 	});
 	</script>
 
-<section id="content_ppal">
+<section class="content_ppal">
     
 <!--Dashboard-->
     <div class="content">

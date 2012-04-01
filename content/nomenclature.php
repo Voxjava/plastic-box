@@ -1,4 +1,4 @@
-<section id="content_ppal">
+<section class="content_ppal">
 <div class="pagination"><a href="#">accueil > Consultation nomenclature</a></div>
 <div id="recherche">
         <table id="mytable">

@@ -1,4 +1,4 @@
-<section id="content_ppal">
+<section class="content_ppal">
     <div id="recherche">
         <table id="mytable">
         <th><label class="label_recherche">Rechercher un utilisateur: </label></th>

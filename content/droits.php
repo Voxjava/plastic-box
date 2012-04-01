@@ -1,8 +1,8 @@
-<section id="content_ppal">
+<section class="content_ppal">
    
     
     <div id="formulaire">
-        <div class="pagination"><a href="#">accueil > Cr&eacute;ation de nomenclature</a></div> 
+        <div class="pagination"><a href="#">accueil > Gestion des droits</a></div> 
         <form id="nomenclature" action="/">
             
             <h4>Gestion utilisateur</h4>

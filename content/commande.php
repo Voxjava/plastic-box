@@ -31,7 +31,7 @@
    	</script>
 
 
-<section id="content_ppal">
+<section class="content_ppal">
     <div id="commade">
         <div class="logo"></div>
         <FORM method=post action="" >
@@ -67,7 +67,7 @@
                             <tr>
                                 <td>
                                     <select>
-                                        <option>Article 0</option>
+                                        <option></option>
                                         <option>Article 1</option>
                                         <option>Article 2</option>
                                         <option>Article 3</option>

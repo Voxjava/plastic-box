@@ -18,7 +18,7 @@ $( "#amount" ).val( "" + $( "#slider-range" ).slider( "values", 0 ) +
         
 </script>
 
-<section id="content_ppal">
+<section class="content_ppal">
     <div class="pagination"><a href="#">accueil > Cr&eacute;ation de nomenclature</a></div> 
     <div id="formulaire">
         <form id="nomenclature" action="/">

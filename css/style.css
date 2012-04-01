@@ -117,7 +117,7 @@ h2 {font-size: 15px;line-height: 1.2307em;color: black;padding-bottom: 25px;text
 
 /*section=================================================================*/
 
-#content_ppal {min-height:431px;width: 973px;margin-right:6px;height:auto;background-color: white;float:right;padding-left: 25px;border: 1px solid #E5E5E5;padding-top:50px;padding-bottom: 100px;margin-top:11px;margin-bottom: 37px;}
+.content_ppal {min-height:431px;width: 973px;margin-right:6px;height:auto;background-color: white;float:right;padding-left: 25px;border: 1px solid #E5E5E5;padding-top:50px;padding-bottom: 100px;margin-top:11px;margin-bottom: 37px;}
 
 /*----- form defaults -----*/
 
@@ -601,12 +601,12 @@ a#handle{
 }
 /****************commande****************************/
 
-#content_ppal fieldset{
+.content_ppal fieldset{
     padding-bottom: 21px;
     border:1px solid #ccc;
     padding-bottom:20px;
 }
-#content_ppal fieldset legend{
+.content_ppal fieldset legend{
     margin-left: 30px;
     font-size:20px;
 }
