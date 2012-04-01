@@ -14,7 +14,21 @@
 			return false;
 		});
 	});
-	</script>
+          function choisircommande(select) {
+				if(select.value == 'choix') {
+					var choix = document.createElement('input');
+					select.form.onsubmit = function() {
+						var option = document.createElement('option');
+						option.innerHTML = choix.value;
+						option.value = choix.value.substring(0, 2);
+						choix.parentNode.replaceChild(select, choix);
+						select.insertBefore(option, select.firstChild);
+						select.selectedIndex = 0;
+					}
+					select.parentNode.replaceChild(choix, select);
+				}
+}
+   	</script>
 
 
 <section id="content_ppal">
@@ -24,7 +38,14 @@
             <FIELDSET style="width:562px">
                 <LEGEND align=top>Bon de Commandes </LEGEND><br>
                 <div style="float:left">
-                    <label>&nbsp;Num&eacute;ro de commande : <?php echo"0023455A" ?>&nbsp;</label>
+                    <label>&nbsp;Num&eacute;ro de commande :
+                                <select onchange="choisircommande(this);">
+					<option value="1">A23546CD</option>
+					<option value="2">A27873ER</option>
+					<option value="choix">Choix ou Saisie</option>
+				</select>
+                    </label>
+                   <a href="#" style="font-size: 9px">annuler</a>
                 </div>
                 <div style="float:right;margin-right:10px">
                     <label>Date : <?php echo $jours[date("w")] . " " . date("d") . " " . $mois[date("m") - 1] . " " . date("Y"); ?></label>
@@ -97,11 +118,11 @@
                         </table>
                         </p>
                         <div class="padding">
-                         <a class="submit" href="#">Créer</a> ou <a href="#">annuler</a>
+                         <a class="submit" href="#">Créer</a> ou <a href="#">Supprimer</a>
                         </div>
                     </form>
                 </div>
-                <div id="dialog" title="Basic dialog">
+                <div id="dialog">
                     <ul class="iconlist">
                         <li class="usine"><a href="#">Chaine 1</a> Ouverte</li>
                         <li class="usine"><a href="#">Chaine 2</a> Ferm&eacute;</li>
@@ -109,6 +130,7 @@
                         <li class="usine"><a href="#">Chaine 4</a> Ouverte</li>
                     </ul>
                 </div>
+                                    
                 <div class="droite">
 <!--                    <div id="qcode">
                       
