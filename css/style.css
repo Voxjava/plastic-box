@@ -625,6 +625,10 @@ a#handle{
    height: 250px;
    width: 300px; 
 }
+#Commande_table tr td{
+    width:120px;
+    
+}
 .iconlist
 {
   list-style-type: none;
@@ -650,8 +654,7 @@ li.usine
     
 }
 span.cb{
-    background-image: url('../Images/cb32.png');
-    width:32px;
-    height:32px;
+    position:relative;
+    top:10px;
     
 }

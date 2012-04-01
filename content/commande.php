@@ -34,19 +34,19 @@
 <section class="content_ppal">
     <div id="commade">
         <form method=post action="" >
-            <FIELDSET style="width:562px">
-                <LEGEND align=top>Bon de Commandes </LEGEND><br>
+            <FIELDSET style="width:600px">
+                <LEGEND align=top>Bon de Commandes </LEGEND>
                 <div style="float:left">
-                    <label>&nbsp;Num&eacute;ro de commande :
+                    <label>&nbsp;Num&eacute;ro de commande :  </label>
                                 <select onchange="choisircommande(this);">
 					<option value="1">A23546CD</option>
 					<option value="2">A27873ER</option>
 					<option value="choix">Choix ou Saisie</option>
 				</select>
-                    </label>
-                   <span class="cb"></span><a href="#" style="font-size: 9px">annuler</a>
+                  
+                   <span class="cb"><img src="../Images/cb32.png"/></span>&nbsp;<a href="#" style="font-size: 9px"> annuler</a>
                 </div>
-                <div style="float:right;margin-right:10px">
+                <div style="float:right;margin-right:10px;margin-top:20px;">
                     <label>Date : <?php echo $jours[date("w")] . " " . date("d") . " " . $mois[date("m") - 1] . " " . date("Y"); ?></label>
                 </div>
                 <div class="clear"></div>
