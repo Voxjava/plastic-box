@@ -30,7 +30,7 @@
         <!-- content gauche-->
 	<?php include("aside.php"); ?>
         <!--content droite-->
-        <?php include("nomenclature.php"); ?>
+        <?php include("cat_fournisseur.php"); ?>
         <!-- footer -->
         <?php include("footer.php"); ?>
 </html>
