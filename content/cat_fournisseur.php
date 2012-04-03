@@ -25,14 +25,14 @@
                 <td>3</td>
                 <td>Fournisseur 1</td>
                 <td>10 rue du fournisseur</td>
-                 <td><a href="#"><img src="../Images/accept.png"></img></a></td>
+                 <td><a href="#"><img src="../Images/accept.png"/></a></td>
                 <td><a>Catalogue</a></td>
            </tr>
            <tr>
                 <td>3</td>
                 <td>Fournisseur 1</td>
                 <td>10 rue du fournisseur</td>
-                 <td><a href="#"><img src="../Images/accept.png"></img></a></td>
+                 <td><a href="#"><img src="../Images/accept.png"/></a></td>
                 <td><a>Catalogue</a></td>
            </tr>
             <tr>
@@ -46,7 +46,7 @@
                 <td>3</td>
                 <td>Fournisseur 1</td>
                 <td>10 rue du fournisseur</td>
-                 <td><a href="#"><img src="../Images/accept.png"></img></a></td>
+                 <td><a href="#"><img src="../Images/accept.png"/></a></td>
                 <td><a>Catalogue</a></td>
            </tr>
             <tr>
