@@ -658,3 +658,21 @@ span.cb{
     top:10px;
     
 }
+.qrcode_field{
+margin-top: 10px;
+width: 500px;
+margin-left: 20px;
+padding-top: 10px;
+ margin-bottom: 10px;
+line-height: 2.1;   
+}
+#result{
+    float:right;
+ }
+ #generator{
+     float:left;
+ }
+ #etiquette{
+     position:relative;
+     top:-20px;
+ }

@@ -6,7 +6,7 @@
 			hide: "explode",
                         modal: "true",
                         position: "right",
-                        title: "Choixd'une Chaine de Production"
+                        title: "Choix d'une Chaine de Production"
 		});
 
 		$( "#opener" ).click(function() {
