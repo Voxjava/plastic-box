@@ -1,8 +1,8 @@
 <section class="content_ppal">
-<div class="pagination"><a href="#">accueil > Consultation Fournisseur</a></div>
+<div class="pagination"><a href="#">accueil > Consultation Client</a></div>
 <div id="recherche">
         <table id="mytable">
-        <th><label class="label_recherche">Rechercher un Fournisseur: </label></th>
+        <th><label class="label_recherche">Rechercher un Client: </label></th>
         <td><input type="text" name="search" placeholder="recherche..." size="20px" />
         <input type="image" name="b_search" src="../Images/search.png" /></td>
         </table>
@@ -68,7 +68,7 @@
 <div id="shadowing">
 <div id="box" >
             <div id="boxheader">
-                <h1>Fiche Fournisseur</h1>
+                <h1>Fiche Client</h1>
                         <span id="boxclose" onclick="document.getElementById('box').style.display='none';document.getElementById('shadowing').style.display='none';"></span>
                         </div>
                         <div id="boxcontent"><img src="../Images/image.png" width="128" height="128" alt="image"/>
