@@ -1,5 +1,1 @@
-<section class="content_ppal">
-     
-    
-    
-</section>
+<section class="content_ppal"></section>
