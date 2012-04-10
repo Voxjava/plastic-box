@@ -180,7 +180,7 @@ footer{height:64px;width:auto; margin: 0 auto; border-top:1px solid #121212; tex
              padding:4px;
              vertical-align: middle; 
 }
-#mytable{font-family: Trebuchet MS, serif;font-size: 18px;font-style: italic;font-weight: normal;letter-spacing: -1px;line-height: 1.2em;border-collapse:collapse;text-align:center;width:930px;margin:auto;}
+#mytable{font-family: Trebuchet MS, serif;font-size: 18px;font-style: italic;font-weight: normal;letter-spacing: -1px;line-height: 1.2em;border-collapse:collapse;text-align:center;width:930px;}
 #pager{float: right;margin-right: 166px;}
 /*#recherche{border: 1px solid;height: 75px;margin: auto 167px;width: 648px;}*/
 #mytable td input{margin-top:4px;}
@@ -605,10 +605,32 @@ a#handle{
     padding-bottom: 21px;
     border:1px solid #ccc;
     padding-bottom:20px;
+    position: relative;
+    padding: 10px;
+    padding-top: 5px;
+    background: #F6F6F6;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    margin-top:20px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#EFEFEF), to(#FFFFFF));
+    background: -moz-linear-gradient(center top, #EFEFEF, #FFFFFF 100%);
+    box-shadow: 3px 3px 10px #ccc;
+    -moz-box-shadow: 3px 3px 10px #ccc;
+    -webkit-box-shadow: 3px 3px 10px #ccc 
 }
 .content_ppal fieldset legend{
     margin-left: 30px;
-    font-size:20px;
+    font-size:12px;
+    padding: 5px 10px;
+    background-color: #000;
+    color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px; 
+    box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    -webkit-box-shadow: 2px 2px 4px #888    
 }
 #Commande_table{
     text-align: center;  
@@ -675,4 +697,30 @@ line-height: 2.1;
  #etiquette{
      position:relative;
      top:-20px;
+ }
+ .export{
+     float:right;
+     margin-right:56px;
+     width:16px;
+     height:16px;
+ }
+ .button_bon{
+     background-color: #000;
+    color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px; 
+    box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    -webkit-box-shadow: 2px 2px 4px #888 
+        
+ }
+ .dossier{
+     position:relative;
+     left: 16px;
+     bottom: 6px;
+ }
+ #menu_inventaire{
+     display:inline;
+     width:600px;
  }

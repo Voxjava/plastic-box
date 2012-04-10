@@ -32,7 +32,7 @@
 
 
 <section class="content_ppal">
-    <div id="commade">
+    <div id="commande">
         <form method=post action="" >
             <FIELDSET style="width:600px">
                 <LEGEND align=top>Bon de Commandes </LEGEND>
