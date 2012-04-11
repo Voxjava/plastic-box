@@ -804,3 +804,22 @@ line-height: 2.1;
 #breadcrumbs-one .current::before{
   content: normal;
 }
+a span{
+    position:absolute;
+    margin-top:23px;
+    margin-left:-35px;
+    color:#FFF;
+    background:rgba(0,0,0,.9);
+    padding:15px;
+    border-radius:3px;
+    box-shadow:0 0 2px rgba(0,0,0,.5);
+    transform:scale(0) rotate(-12deg);
+    transition:all .25s;
+    opacity:0;
+    border:1px #ccc solid;
+    
+}
+a:hover span , a:focus span {
+    transform:scale(1) rotate(0);      
+    opacity:1;
+}

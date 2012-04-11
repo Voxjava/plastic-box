@@ -31,9 +31,9 @@
                 <td>3</td>
                 <td>Fournisseur 1</td>
                 <td>10 rue du fournisseur</td>
-                 <td><a href="#"><img src="../Images/accept.png"/></a></td>
+                 <td><a href="#"><img src="../Images/accept.png"/><span class="bulle">fournisseur actif</span></a></td>
                 <td><a>Catalogue</a></td>
-                 <td><a href="#"><img src="../Images/edit.png"/><img src="../Images/delete.png"/></a></td>
+                 <td><a href="#"><img src="../Images/edit.png"/><img src="../Images/delete.png"/><span class="bulle">Edition et suppression</span></a></td>
            </tr>
            <tr>
                 <td>3</td>

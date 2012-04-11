@@ -1,4 +1,10 @@
 <section class="content_ppal">
+     <ul id="breadcrumbs-one">
+        <li><a href="">Accueil</a></li>
+        <li><a href="">Production</a></li>
+        <li><a href="">Etiquettes</a></li>
+        <li><a href="" class="current">Création d'&eacute;tiquettes</a></li>
+    </ul>
     <div id="etiquette">
         <FIELDSET style="width:862px">
             <LEGEND align=top>Gestion de l'&eacute;tiquetage </LEGEND><br>
