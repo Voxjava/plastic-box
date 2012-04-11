@@ -1,4 +1,10 @@
 <section class="content_ppal">
+     <ul id="breadcrumbs-one">
+        <li><a href="">Accueil</a></li>
+        <li><a href="">Production</a></li>
+        <li><a href="">Catalogue</a></li>
+        <li><a href="" class="current">Catalogue Clients</a></li>
+    </ul>
 <div class="pagination"><a href="#">accueil > Consultation Client</a></div>
 <div id="recherche">
         <table id="mytable">

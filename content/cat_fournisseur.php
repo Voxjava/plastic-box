@@ -1,5 +1,10 @@
 <section class="content_ppal">
-<div class="pagination"><a href="#">accueil > Consultation Fournisseur</a></div>
+    <ul id="breadcrumbs-one">
+        <li><a href="">Accueil</a></li>
+        <li><a href="">Production</a></li>
+        <li><a href="">Catalogue</a></li>
+        <li><a href="" class="current">Catalogue fournisseurs</a></li>
+    </ul>
 <div id="recherche">
         <table id="mytable">
         <th><label class="label_recherche">Rechercher un Fournisseur: </label></th>

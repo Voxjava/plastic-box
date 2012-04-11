@@ -5,6 +5,12 @@
 </script>
 
 <section class="content_ppal">
+<ul id="breadcrumbs-one">
+    <li><a href="">Accueil</a></li>
+    <li><a href="">Production</a></li>
+    <li><a href="">Stock</a></li>
+    <li><a href="" class="current">Inventaire</a></li>
+</ul>
     <form>
         <FIELDSET style="width:600px;">
             <LEGEND align=top>Inventaires </LEGEND><br>
