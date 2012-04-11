@@ -30,7 +30,7 @@
         <!-- content gauche-->
 	<?php include("aside.php"); ?>
         <!--content droite-->
-        <?php include("critique.php"); ?>
+        <?php include("bonajeter.php"); ?>
         <!-- footer -->
         <?php include("footer.php"); ?>
 </html>
