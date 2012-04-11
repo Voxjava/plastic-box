@@ -91,7 +91,7 @@ nav ul li:last-child:hover::after{left:46.6em;width:14em;}
 
 
 /*aside ==================================================================*/
-#content_left{float:left;}
+#content_left{float:left;margin-left: 8px;}
 
 /*1*/
 
