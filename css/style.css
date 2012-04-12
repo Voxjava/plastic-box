@@ -804,7 +804,7 @@ line-height: 2.1;
 #breadcrumbs-one .current::before{
   content: normal;
 }
-a span{
+.bulle span{
     position:absolute;
     margin-top:23px;
     margin-left:-35px;
@@ -819,7 +819,7 @@ a span{
     border:1px #ccc solid;
     
 }
-a:hover span , a:focus span {
+.bulle:hover span , .bulle:focus span {
     transform:scale(1) rotate(0);      
     opacity:1;
 }

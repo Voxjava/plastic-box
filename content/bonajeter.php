@@ -55,7 +55,7 @@
                 <td>R&eacute;f 1</td>
                 <td>Nom nomenclature 1</td>
                 <td>MAJ 1</td>
-                <td>Statut 1</td>
+                <td><a class="bulle" href="#">Statut 1<span>Statut</span></a></td>
                 <td>Catalogue 1</td>
            </tr>
            <tr>
