@@ -2,6 +2,7 @@ article, aside, audio, canvas, command, datalist, details, embed, figcaption, fi
 mark, rp, rt, ruby, summary, time{ display: inline }
 
 /*proprietes ======================================================== */
+
 body {background:url(../Images/bg.gif) 0 0 repeat;
       font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
       font-size:13px;
@@ -19,6 +20,7 @@ li {text-decoration: none;}
 .gauche{float:left;}
 .droite{float:right;}
 .padding{padding-left:40px;}
+
 /*Structure ============================================================= */
 
 

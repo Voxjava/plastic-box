@@ -99,5 +99,6 @@
                 <td>Catalogue 7</td>
             </tr>
         </tbody>
-    </table>   
+    </table>  
+     
 </section>
