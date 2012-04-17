@@ -617,9 +617,9 @@ a#handle{
     margin-top:20px;
     background: -webkit-gradient(linear, left top, left bottom, from(#EFEFEF), to(#FFFFFF));
     background: -moz-linear-gradient(center top, #EFEFEF, #FFFFFF 100%);
-    box-shadow: 3px 3px 10px #ccc;
-    -moz-box-shadow: 3px 3px 10px #ccc;
-    -webkit-box-shadow: 3px 3px 10px #ccc 
+    box-shadow: 1px 26px 12px -20px #ccc;
+    -moz-box-shadow: 1px 26px 12px -20px #ccc;
+    -webkit-box-shadow: 1px 26px 12px -20px #ccc 
 }
 .content_ppal fieldset legend{
     margin-left: 30px;
@@ -632,7 +632,8 @@ a#handle{
     border-radius: 4px; 
     box-shadow: 2px 2px 4px #888;
     -moz-box-shadow: 2px 2px 4px #888;
-    -webkit-box-shadow: 2px 2px 4px #888    
+    -webkit-box-shadow: 2px 2px 4px #888;   
+     width: -moz-max-content;
 }
 #Commande_table{
     text-align: center;  

@@ -29,12 +29,10 @@
 				}
 }
    	</script>
-
-
 <section class="content_ppal">
     <div id="commande">
         <form method=post action="" >
-            <FIELDSET style="width:600px">
+             <FIELDSET style="width:600px">
                 <LEGEND align=top>Bon de Commandes </LEGEND>
                 <div style="float:left">
                     <label>&nbsp;Num&eacute;ro de commande :  </label>
