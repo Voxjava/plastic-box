@@ -23,7 +23,12 @@
         <!--[if lt IE 9]>
           <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-         
+<!--        javascript-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script>
+         $('.dropdown-toggle').dropdown();    
+        </script>
     </head>
 
     <body>
@@ -146,12 +151,9 @@
 
         </div><!--/.fluid-container-->
         
-        <!-- javascript -->
-       
-        <script src="../js/jqueryboot.js"></script>
-        <script src="../js/Dropdowns.js"></script>
-        <script src="../js/carousel.js"></script>
-        <script src="../js/modal.js"></script>
+      
+    
+        
         
         </body>
 </html>
