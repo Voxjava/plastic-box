@@ -26,9 +26,6 @@
 <!--        javascript-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
         <script src="../js/bootstrap.min.js"></script>
-        <script>
-         $('.dropdown-toggle').dropdown();    
-        </script>
     </head>
 
     <body>
@@ -54,7 +51,7 @@
                                 </ul>
                             </li>
                             <li><a href="#about">A propos</a></li>
-                            <li><a href="#myModal">Contact</a></li>
+                            <li><a data-toggle="modal" href="#myModal">Contact</a></li>
                         </ul>
                         <ul class="nav pull-right">
 	<li class="dropdown" id="menu3"><a class="dropdown-toggle" data-toggle="dropdown" href="#menu3">Connexion<b class="caret"></b></a>
@@ -86,17 +83,35 @@
         </div>
         <!--Modal window -->
         
-        <div class="modal" id="myModal" style="display: none;">
+        <div class="modal hide fade" id="myModal">
             <div class="modal-header">
                 <a class="close" data-dismiss="modal">×</a>
-                <h3>Modal header</h3>
+                <h3>Contact Plastic'Box</h3>
             </div>
             <div class="modal-body">
-                <p>One fine body…</p>
+    <form class="form-horizontal">
+        
+        <fieldset>
+            <div class="control-group">
+            <label class="control-label" for="focusedInput">Entreprise :</label>
+            <div class="controls">
+              <input class="input-xlarge focused" id="focusedInput" type="text" value="">
+            </div>
+            <label class="control-label" for="focusedInput">Email :</label>
+            <div class="controls">
+              <input class="input-xlarge focused" id="focusedInput" type="email" value="">
+            </div>
+            <label class="control-label" for="focusedInput">Message :</label>
+            <div class="controls">
+             <textarea class="input-xlarge" id="textarea" rows="3" style="margin-left: 0px; margin-right: 0px; width: 283px; margin-top: 0px; margin-bottom: 0px; height: 137px; "></textarea>
+            </div>
+          </div>
+        </fieldset>
+    </form>
             </div>
             <div class="modal-footer">
-                <a href="#" class="btn">Close</a>
-                <a href="#" class="btn btn-primary">Save changes</a>
+                <a href="#" class="btn">Annuler</a>
+                <a href="#" class="btn btn-primary">Envoyer</a>
             </div>
         </div>
        
