@@ -23,12 +23,7 @@
         <!--[if lt IE 9]>
           <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-        <script src="../js/jqueryboot.js"></script>
-        <script src="../js/Dropdowns.js"></script>
-        <script src="../js/carousel.js"></script>
-         <script>
-            $('.dropdown-toggle').dropdown();
-        </script>
+         
     </head>
 
     <body>
@@ -54,14 +49,53 @@
                                 </ul>
                             </li>
                             <li><a href="#about">A propos</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#myModal">Contact</a></li>
                         </ul>
-                        <p class="navbar-text pull-right">Connexion :<a href="#"> identifiant...</a></p>
+                        <ul class="nav pull-right">
+	<li class="dropdown" id="menu3"><a class="dropdown-toggle" data-toggle="dropdown" href="#menu3">Connexion<b class="caret"></b></a>
+		<ul class="dropdown-menu" id="login"><li>
+		
+<div>
+<p><b>Connexion</b></p>
+</div>
+
+<form class="form-inline" name="lm" id="lm" method="post" action="/login" target="_top" accept-charset="utf-8">
+	<input name="email" id="emailadress" value="" />
+	<label>Email:</label><input type="text" class="span3" id="lme" name="a" maxlength="10" value="" placeholder="Email address" title="Entrez votre Email">
+	<label>Mot de passe:</label><input type="password" class="span2" name="p" maxlength="16" value="" placeholder="Password" title="Entrez votre mot de passe">
+	<input type="submit" id="sbmt" class="btn btn-primary" value="Login" />
+	<input type="hidden" name="frmact" value="login" />
+</form>
+
+<div>
+<p><a href="/login"><i class="icon-exclamation-sign"></i> Mot de passe oublié ?</a></p>
+</div>
+
+</li>
+</ul></li>
+</ul>          
+                       
                     </div><!--/.nav-collapse -->
                 </div>
             </div>
         </div>
-
+        <!--Modal window -->
+        
+        <div class="modal" id="myModal" style="display: none;">
+            <div class="modal-header">
+                <a class="close" data-dismiss="modal">×</a>
+                <h3>Modal header</h3>
+            </div>
+            <div class="modal-body">
+                <p>One fine body…</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn">Close</a>
+                <a href="#" class="btn btn-primary">Save changes</a>
+            </div>
+        </div>
+       
+        <!--end modal-->
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span3">
@@ -78,6 +112,7 @@
                 <div class="span8">
                     <div id="myCarousel" class="carousel">
                         <!-- Carousel items -->
+                       
                         <div class="carousel-inner">
                             <div class="active item"><img src="../Images/pub/pub1.png"/></div>
                             <div class="item"><img src="../Images/pub/pub2.png"/></div>
@@ -88,13 +123,14 @@
                         <!-- Carousel nav -->
                         <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
                         <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-                        <div class="alert alert-info">
-                            <strong>Info : </strong> Publicité Plastic'BOX
-                        </div>
                     </div>
+                    <div class="alert alert-info">
+                        <strong>Info : </strong> Publicité Plastic'BOX
+                    </div>
+
                     <div class="row-fluid">
                         <div class="span9">
-                            <h2>Heading</h2>
+                            <h3>Accés au compte client</h3>
                             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
                             <p><a class="btn" href="#">D&eacute;tails &raquo;</a></p>
                         </div><!--/span-->
@@ -109,4 +145,13 @@
             </footer>
 
         </div><!--/.fluid-container-->
+        
+        <!-- javascript -->
        
+        <script src="../js/jqueryboot.js"></script>
+        <script src="../js/Dropdowns.js"></script>
+        <script src="../js/carousel.js"></script>
+        <script src="../js/modal.js"></script>
+        
+        </body>
+</html>

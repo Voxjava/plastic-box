@@ -4597,3 +4597,19 @@ pre.prettyprint {
   text-shadow: none;
   border: none;
 }
+form#lm {
+padding: 12px 20px;
+background: whiteSmoke;
+margin: 12px 0;
+border-top: 1px solid #B4B6AC;
+border-bottom: 1px solid #B4B6AC;
+}
+ul#login {
+width: 340px;
+max-width: 340px;
+}
+#mainmenu ul.dropdown-menu li {
+font-size: 13px;
+text-transform: none;
+font-weight: normal;
+}
