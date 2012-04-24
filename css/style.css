@@ -826,3 +826,19 @@ line-height: 2.1;
     transform:scale(1) rotate(0);      
     opacity:1;
 }
+.stocks{
+    margin-right:40px;
+ }
+ #recherche_alphabet tr th{
+border: 1px solid #CCC;
+padding: 6px;
+background-color: #CCC;  
+     
+ }
+ table#recherche_alphabet{
+     margin:auto;
+     
+ }
+ #recherche_alphabet tr th a:hover{
+color:#FFF;
+ }

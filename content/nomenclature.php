@@ -1,10 +1,15 @@
 <section class="content_ppal">
-<div class="pagination"><a href="#">accueil > Consultation nomenclature</a></div>
+<ul id="breadcrumbs-one">
+        <li><a href="">Accueil</a></li>
+        <li><a href="">Consultation</a></li>
+        <li><a href="" class="current">Nomenclature</a></li>
+    </ul>
 <div id="recherche">
         <table id="mytable">
         <th><label class="label_recherche">Rechercher une Nomenclature : </label></th>
         <td><input type="text" name="search" placeholder="recherche..." size="20px" />
         <input type="image" name="b_search" src="../Images/search.png" /></td>
+        <td><a><img src="../Images/imprimer.png"/></a></td>
         </table>
     </div>
 <br>

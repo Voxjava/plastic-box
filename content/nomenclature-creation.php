@@ -19,7 +19,11 @@ $( "#amount" ).val( "" + $( "#slider-range" ).slider( "values", 0 ) +
 </script>
 
 <section class="content_ppal">
-    <div class="pagination"><a href="#">accueil > Cr&eacute;ation de nomenclature</a></div> 
+  <ul id="breadcrumbs-one">
+        <li><a href="">Accueil</a></li>
+        <li><a href="">Qualit&eacute;</a></li>
+        <li><a href="" class="current">Cr&eacute;tion de Nomenclature</a></li>
+    </ul> 
     <div id="formulaire">
         <form id="nomenclature" action="/">
             <h4>Cr&eacute;ation de nomencature</h4>
