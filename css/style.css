@@ -841,4 +841,5 @@ background-color: #CCC;
  }
  #recherche_alphabet tr th a:hover{
 color:#FFF;
+border-bottom:2px solid #000000;
  }

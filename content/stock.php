@@ -4,15 +4,14 @@
 			ajaxOptions: {
 				error: function( xhr, status, index, anchor ) {
 					$( anchor.hash ).html(
-						"Couldn't load this tab. We'll try to fix this as soon as possible. " +
-						"If this wouldn't be a demo." );
+						"Chargement de l'onglet impossible." );
 				}
 			}
 		});
 	});
 	</script>
 
-<div class="pagination"><a href="#">accueil > Stocks</a></div>
+
 <section class="content_ppal">
     <ul id="breadcrumbs-one">
         <li><a href="">Accueil</a></li>
