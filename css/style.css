@@ -843,3 +843,26 @@ background-color: #CCC;
 color:#FFF;
 border-bottom:2px solid #000000;
  }
+ div#entete p{
+    margin-left: 10px; 
+     
+     
+ }
+ .factice{
+     float:left;
+     margin:15px 22px 10px;
+     padding-top:60px;
+  }
+  div.details label{
+      display:block;
+      width:150px;
+      float:left;
+      
+  }
+  div.details{
+      float:left;
+      margin-bottom:20px;
+  }
+  #sortable{
+      cursor: pointer;
+  }

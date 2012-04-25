@@ -48,11 +48,13 @@
 <table id="mytable" class="tablesorter">
         <thead>
             <tr>
-                <th>identifiant</th>
+                <th>id</th>
+                <th>S&eacute;l&eacute;ction<input type="checkbox"><span style="font-size: 10px;">tout</span></th>
                 <th>R&eacute;f&eacute;rence</th>
                 <th>Nom</th>
                 <th>Co&ucirc;t d'usinage</th>
                 <th>Delais d'usinage</th>
+                <th>Quantité</th>
                 <th>Date Création</th>
                 <th>Prix</th>
                 <th>Poids Brute</th>
@@ -66,10 +68,12 @@
         <tbody>
             <tr>
                 <td>3</td>
+                <td><input type="checkbox"/></td>
                 <td>R&eacute;f 1</td>
                 <td>Nom</td>
                 <td>Co&ucirc;t 1</td>
                 <td>Delais 1</td>
+                <td>Quantité 1</td>
                 <td>Date Cr&eacute;ation 1</td>
                 <td>Prix 1</td>
                 <td>Poids B1</td>
