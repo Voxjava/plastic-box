@@ -62,9 +62,8 @@
 </div>
 
 <form class="form-inline" name="lm" id="lm" method="post" action="/login" target="_top" accept-charset="utf-8">
-	<input name="email" id="emailadress" value="" />
-	<label>Email:</label><input type="text" class="span3" id="lme" name="a" maxlength="10" value="" placeholder="Email address" title="Entrez votre Email">
-	<label>Mot de passe:</label><input type="password" class="span2" name="p" maxlength="16" value="" placeholder="Password" title="Entrez votre mot de passe">
+	<label>Email:  </label><input class="span2" name="email" id="emailadress" maxlength="30" value="" placeholder="Email address" title="Entrez votre Email"/><br>
+	<label>Mot de passe:  </label><input type="password" class="span2" name="p" maxlength="16" value="" placeholder="Password" title="Entrez votre mot de passe">
 	<input type="submit" id="sbmt" class="btn btn-primary" value="Login" />
 	<input type="hidden" name="frmact" value="login" />
 </form>
@@ -96,11 +95,11 @@
             <label class="control-label" for="focusedInput">Entreprise :</label>
             <div class="controls">
               <input class="input-xlarge focused" id="focusedInput" type="text" value="">
-            </div>
+            </div><br>
             <label class="control-label" for="focusedInput">Email :</label>
             <div class="controls">
               <input class="input-xlarge focused" id="focusedInput" type="email" value="">
-            </div>
+            </div><br>
             <label class="control-label" for="focusedInput">Message :</label>
             <div class="controls">
              <textarea class="input-xlarge" id="textarea" rows="3" style="margin-left: 0px; margin-right: 0px; width: 283px; margin-top: 0px; margin-bottom: 0px; height: 137px; "></textarea>
@@ -110,7 +109,7 @@
     </form>
             </div>
             <div class="modal-footer">
-                <a href="#" class="btn">Annuler</a>
+                <a href="#" class="btn" data-dismiss="modal">Annuler</a>
                 <a href="#" class="btn btn-primary">Envoyer</a>
             </div>
         </div>
@@ -147,12 +146,29 @@
                     <div class="alert alert-info">
                         <strong>Info : </strong> Publicité Plastic'BOX
                     </div>
+                            <!--Modal window -->
+        
+        <div class="modal hide fade" id="myModal1">
+            <div class="modal-header">
+                <a class="close" data-dismiss="modal">×</a>
+                <h3>Contact Plastic'Box</h3>
+            </div>
+            <div class="modal-body">
+                <h3>Accés au compte client</h3>
+                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            </div>
+            <div class="modal-footer">
+               <a href="#" class="btn btn-primary" data-dismiss="modal">OK</a>
+            </div>
+        </div>
+       
+        <!--end modal-->
 
                     <div class="row-fluid">
                         <div class="span9">
                             <h3>Accés au compte client</h3>
                             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                            <p><a class="btn" href="#">D&eacute;tails &raquo;</a></p>
+                            <p><a class="btn" data-toggle="modal" href="#myModal1">D&eacute;tails &raquo;</a></p>
                         </div><!--/span-->
                     </div><!--/row-->
                 </div><!--/span-->
@@ -167,7 +183,8 @@
         </div><!--/.fluid-container-->
         
       
-    
+                                
+
         
         
         </body>

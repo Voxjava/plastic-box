@@ -17,10 +17,10 @@
                        
             </div>
             <div class="details">
-            <label>Lib&eacute;l&eacute;:  </label><input type="text" value=" Libélé 1"><br>
-            <label>Emplacement : </label><input type="text" value=" Allée DXXXXX"><br>
+            <label>Libell&eacute;:  </label><input type="text" value="Libellé 1"><br>
+            <label>Emplacement : </label><input type="text" value="Allée DXXXXX"><br>
             <label>Longueur : </label><input type="text" value="Longueur 1" /><br>
-            <label>Largueur : </label><input type="text" value="Largueur 1" /><br>
+            <label>Largeur : </label><input type="text" value="Largeur 1" /><br>
             <label>Poids : </label><input type="text" value="Poids 1" /><br>
             <label>Pris de vente : </label><input type="text" value="Prix 1" /><br>
             <label>Stock Total : </label><input type="text" value="Stock 1" /><br>
@@ -46,10 +46,10 @@
                        
             </div>
             <div class="details">
-            <label>Lib&eacute;l&eacute;:  </label><input type="text" value=" Libélé 2"><br>
-            <label>Emplacement : </label><input type="text" value=" Allée DXXYXXX"><br>
+            <label>Libell&eacute;:  </label><input type="text" value="Libellé 2"><br>
+            <label>Emplacement : </label><input type="text" value="Allée DXXYXXX"><br>
             <label>Longueur : </label><input type="text" value="Longueur 2" /><br>
-            <label>Largueur : </label><input type="text" value="Largueur 2" /><br>
+            <label>Largeur : </label><input type="text" value="Largeur 2" /><br>
             <label>Poids : </label><input type="text" value="Poids 2" /><br>
             <label>Pris de vente : </label><input type="text" value="Prix 2" /><br>
             <label>Stock Total : </label><input type="text" value="Stock 2" /><br>
