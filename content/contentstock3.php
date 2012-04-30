@@ -18,7 +18,7 @@ function pieChart() {
   var pullOutLabelPadding = 65;                     // Padding between pulled-out slice and its label  
   var pullOutLabelFont = "bold 16px 'Trebuchet MS', Verdana, sans-serif";  // Pull-out slice label font
   var pullOutValueFont = "bold 12px 'Trebuchet MS', Verdana, sans-serif";  // Pull-out slice value font
-  var pullOutValuePrefix = "";                     // Pull-out slice value prefix
+  var pullOutValuePrefix = "gr ";                     // Pull-out slice value prefix
   var pullOutShadowColour = "rgba( 0, 0, 0, .5 )";  // Colour to use for the pull-out slice shadow
   var pullOutShadowOffsetX = 5;                     // X-offset (in pixels) of the pull-out slice shadow
   var pullOutShadowOffsetY = 5;                     // Y-offset (in pixels) of the pull-out slice shadow
@@ -380,36 +380,21 @@ function pieChart() {
   <table id="chartData">
 
     <tr>
-      <th>Identifiant</th><th>E/S</th>
+      <th>Composition</th><th>Qté</th>
      </tr>
 
     <tr style="color: #0DA068">
-      <td>1 produit</td><td>1862.12</td>
+      <td>réf 1</td><td>400</td>
     </tr>
 
     <tr style="color: #194E9C">
-      <td>MegaWidget</td><td>1316.00</td>
+      <td>Réf 2</td><td>250</td>
     </tr>
 
     <tr style="color: #ED9C13">
-      <td>HyperWidget</td><td>712.49</td>
+      <td>Réf 3</td><td>350</td>
     </tr>
-
-    <tr style="color: #ED5713">
-      <td>WonderWidget</td><td>3236.27</td>
-    </tr>
-
-    <tr style="color: #057249">
-      <td>MicroWidget</td><td>6122.06</td>
-    </tr>
-
-    <tr style="color: #5F91DC">
-      <td>NanoWidget</td><td>128.11</td>
-    </tr>
-
-    <tr style="color: #F88E5D">
-      <td>LovelyWidget</td><td>245.55</td>
-    </tr>
+  
   </table>
 
   <div class="wideBox">
