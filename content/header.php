@@ -1,6 +1,6 @@
 
 <header>
-   
+   <?php include("menu.php") ?>
     <script>
     $(document).ready(function () {
 $('.message a,.rss a').click(function () {

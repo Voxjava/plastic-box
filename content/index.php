@@ -27,7 +27,7 @@
         <!-- header -->
         <?php include("header.php"); ?>
         <!--Menu-->
-        <?php include("menu.php") ?>
+        
         <!-- content gauche-->
 	<?php include("aside.php"); ?>
         <!--content droite-->
